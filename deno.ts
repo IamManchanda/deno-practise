@@ -10,4 +10,5 @@ if (food === "love" && parent === "ryan") {
 setTimeout(() => {
   console.log("check");
   console.table(Deno.metrics());
-}, 1000);
+  console.log(window);
+}, 100);
